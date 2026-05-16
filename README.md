@@ -56,3 +56,4 @@ git clone https://github.com/Angalii/ms-productos.git
 5. Desplegar el servicio.
 
 ## URL del servicio desplegado
+https://ms-productos-fxg4.onrender.com
