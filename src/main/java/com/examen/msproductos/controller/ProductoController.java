@@ -5,11 +5,13 @@ import com.examen.msproductos.entity.Producto;
 import com.examen.msproductos.service.ProductoService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/productos")
+@CrossOrigin(origins = "*")
 public class ProductoController {
 
     private final ProductoService productoService;
